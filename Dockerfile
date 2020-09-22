@@ -39,7 +39,7 @@ WORKDIR $PROJECT_ROOT
 EXPOSE 8000
 
 
-RUN wget -O in.zip https://www.shopware.com/de/Download/redirect/version/sw6/file/install_v6.3.1.0_30a2e48bba09fcdca287d2062aa73b6d25de7be8.zip \
+RUN wget -O in.zip https://www.shopware.com/en/Download/redirect/version/sw6/file/install_v6.3.1.1_5a5aa9e251c05ce73974ededb6075b2a18baac8d.zip \
     && unzip -o in.zip  \
     && rm in.zip \
     && touch install.lock
