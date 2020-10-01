@@ -1,0 +1,13 @@
+public/thumbnail/*
+!public/thumbnail/.gitkeep
+public/media/*
+!public/media/.gitkeep
+public/bundles/*
+!public/bundles/.gitkeep
+custom/plugins/*
+!custom/plugins/.gitkeep
+custom/static-plugins/*
+!custom/static-plugins/.gitkeep
+config/jwt/*
+!config/jwt/.gitkeep
+
