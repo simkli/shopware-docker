@@ -47,6 +47,6 @@ RUN wget -O in.zip https://www.shopware.com/en/Download/redirect/version/sw6/fil
 ADD --chown=www-data . . 
 RUN chown -R www-data $PROJECT_ROOT 
 
-USER www-data
+#USER www-data
 
 ENTRYPOINT ["./bin/entrypoint.sh"]
